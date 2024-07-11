@@ -37,6 +37,7 @@ This repository contains the source code for a Tic-Tac-Toe game built using HTML
 
 ## Screenshots
 
+![tictactoe img 2](https://github.com/STEVE-SSA/PRODIGY_WD_03/assets/172099973/c6df258c-d900-4760-92f7-27558ca874d3)
 
 
 ## Contributions
