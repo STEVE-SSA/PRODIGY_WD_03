@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="gameContainer">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="turnBox">
+            <div id="xTurn" class="turn">X's Turn</div>
+            <div id="oTurn" class="turn">O's Turn</div>
+        </div>
+        <div id="game-board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div id="winnerMessage"></div>
+        <button id="restartButton">Restart</button>
+        <button id="toggleModeButton">Player vs AI</button>
+    </div>
+    
+    <div class="container" id="resultContainer" style="display: none;">
+        <h1 id="resultMessage"></h1>
+        <div id="celebrationEmoji">🎉🎊🥳</div>
+        <button id="newGameButton">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
